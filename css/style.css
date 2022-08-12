@@ -2,6 +2,12 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.container {
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 800px;
+}
+
 form {
     background-color: #1b1b32;
     width: 100%;
@@ -10,7 +16,6 @@ form {
 }
 
 .form-group {
-    padding: 4px;
     margin-bottom: 20px;
 }
 
@@ -39,10 +44,18 @@ img {
     width: 100%;
 }
 
-.container {
-    padding-top: 50px;
-    margin: 0 auto;
-    width: 400px;
+.submit {
+    width: 100%;
+    padding: 12px;
+    background: #37af65;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: white;
 }
 
 h1 {
