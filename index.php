@@ -55,15 +55,15 @@
             <form action="/index.php" method="POST" enctype="multipart/form-data">
                 <div class="form-group">
                     <label for="name">Name</label>
-                    <input type="text" name="name" value="<?php echo $name ?>" class="form-control" placeholder="Enter your name">
+                    <input type="text" name="name" id="name" value="<?php echo $name ?>" class="form-control" placeholder="Enter your name">
                 </div>
                 <div class="form-group">
                     <label for="lastName">Lastname</label>
-                    <input type="text" name="lastName" value="<?php echo $lastName ?>" class="form-control" placeholder="Enter your lastname">
+                    <input type="text" name="lastName" id="lastName" value="<?php echo $lastName ?>" class="form-control" placeholder="Enter your lastname">
                 </div>
                 <div class="form-group">
                     <label for="image">Image</label>
-                    <input type="file" name="image" class="form-control">
+                    <input type="file" name="image" id="image" class="form-control">
                 </div>
                 <input type="submit" name="submit" class="submit">
             </form>
